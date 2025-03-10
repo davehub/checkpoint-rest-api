@@ -1,0 +1,22 @@
+{
+  "name": "checkpoint-rest-api",
+  "version": "1.0.0",
+  "description": "checkpoint rest api",
+  "license": "ISC",
+  "author": "dave",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1"
+  }
+}
